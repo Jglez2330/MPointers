@@ -21,10 +21,6 @@ stdio.h
 -
 sys/socket.h
 -
-
-/Users/jglez2330/Documents/C++/MPointers/main.cpp
-iostream
+unistd.h
 -
-Socket.h
-/Users/jglez2330/Documents/C++/MPointers/Socket.h
 
