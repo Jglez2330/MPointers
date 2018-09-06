@@ -3,6 +3,8 @@
 //
 #include <stdio.h>
 #include <sys/socket.h>
+#include <unistd.h>
+
 
 #ifndef MPOINTERS_SOCKET_H
 #define MPOINTERS_SOCKET_H
@@ -11,7 +13,7 @@
 
 class Socket {
 protected:
-    struct HostInfo{
+    /*struct HostInfo{
         char *hostName;
         char **hosrAliases;
         int hostAddressType;
@@ -36,9 +38,14 @@ protected:
         unsigned short int socketInPort;
         struct InAddress socketInAddress;
         unsigned char socketInZero[8];
-    };
+    };*/
+    sockaddr_in serverAdress;
+    sockaddr_in clientAdress;
+    socklen_t clientLenght;
+    char buffer[256];
 
-//Constrcuctor privado, para que no se instancie
+
+    //Constrcuctor privado, para que no se instancie
 Socket(){};
 
 
@@ -63,7 +70,6 @@ private:
     int serverSocket;
     int portNumber;
     int client;
-    char buffer[256];
     static ServerSocket* serverSocketInstancePTR;
     ServerSocket(ServerSocket const&){};
     ServerSocket&operator = (ServerSocket const&){};
