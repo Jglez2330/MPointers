@@ -48,7 +48,9 @@ ServerSocket::ServerSocket() {
 //Recibe un mensaje del cliente
     read(this->client,buffer, sizeof(buffer));
     printf("%s\n",buffer);
+    
 
 
 
 }
+

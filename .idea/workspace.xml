@@ -34,7 +34,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5502c84-0cf3-4d41-884c-d9576f76a393" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Socket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Socket.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Socket.h" beforeDir="false" afterPath="$PROJECT_DIR$/Socket.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,12 +49,13 @@
     <session id="-1747404112">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.123" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.338" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.45" value="2" />
           <entry key="project.open.time.49" value="1" />
@@ -61,29 +63,29 @@
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="c" value="1" />
           <entry key="cpp" value="2" />
-          <entry key="h" value="3" />
+          <entry key="h" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="6" />
+          <entry key="ObjectiveC" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="2717" />
+          <entry key="ObjectiveC" value="2761" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1406" />
+          <entry key="cpp" value="1450" />
           <entry key="h" value="1311" />
         </counts>
       </usages-collector>
@@ -104,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Socket.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
+            <state relative-caret-position="1">
               <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#61#79#0" expanded="true" />
@@ -113,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Socket.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+            <state relative-caret-position="556">
+              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
               <folding>
                 <element signature="e#62#80#0" expanded="true" />
               </folding>
@@ -125,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#42#60#0" expanded="true" />
               </folding>
@@ -148,8 +150,8 @@
         <option value="$PROJECT_DIR$/SocketServer.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Socket.h" />
-        <option value="$PROJECT_DIR$/Socket.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Socket.cpp" />
       </list>
     </option>
   </component>
@@ -240,11 +242,12 @@
       <workItem from="1536187089628" duration="4301000" />
       <workItem from="1536205118639" duration="4160000" />
       <workItem from="1536215832012" duration="86000" />
+      <workItem from="1536247082995" duration="631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19045000" />
+    <option name="totallyTimeSpent" value="19676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -327,9 +330,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/include/unistd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="470" column="9" selection-start-line="470" selection-start-column="9" selection-end-line="470" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#42#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Socket.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
+        <state relative-caret-position="1">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#61#79#0" expanded="true" />
@@ -339,20 +359,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Socket.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        <state relative-caret-position="556">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
           <folding>
             <element signature="e#62#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#42#60#0" expanded="true" />
           </folding>
         </state>
       </provider>

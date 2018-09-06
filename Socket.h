@@ -64,6 +64,8 @@ public:
     void error(char *error);
     static ServerSocket* getInstance();
 
+    virtual ~ServerSocket();
+
 
 private:
     //SocketClient client;
