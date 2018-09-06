@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jglez2330/Documents/C++/MPointers/Socket.cpp
+cstdlib
+-
+iostream
+-
+netinet/in.h
+-
+Socket.h
+/Users/jglez2330/Documents/C++/MPointers/Socket.h
+
+/Users/jglez2330/Documents/C++/MPointers/Socket.h
+stdio.h
+-
+sys/socket.h
+-
+
+/Users/jglez2330/Documents/C++/MPointers/main.cpp
+iostream
+-
+Socket.h
+/Users/jglez2330/Documents/C++/MPointers/Socket.h
+
