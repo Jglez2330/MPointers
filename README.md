@@ -48,8 +48,10 @@ MPointers is a library for C++ use to replace the default pointer managment an i
 ## Architecture Diagram
   ![mpointer - architecture diagram](https://user-images.githubusercontent.com/29305622/45978754-51d63980-c00a-11e8-86a2-a6195cd2582f.png)
 ## About
+Instituto Tecnológico de Costa Rica.
+Área Académica de Ingeniería en Computadores.
 CE2103 - Project #1
-**Members:**
+### Members
 * Víctor Castrillo - 2017110244
 * Josué Araya - 2017103205
 * Fabricio Elizondo - 201613642
