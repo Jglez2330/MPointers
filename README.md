@@ -1,5 +1,6 @@
 # MPointers
 MPointers is a library for C++ use to replace the default pointer managment an implememnt a new class MPointer that will work as a pointer but offering an easier way to interact with them for the programmer. This library also allows the programmer to set up a virtual memory that will work along side to the MPointer class.
+## Features
 ### ADTs development
 * Node<t>
 * LinkedList<t>
