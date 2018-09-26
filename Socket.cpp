@@ -5,7 +5,9 @@
 #include <cstdlib>
 #include <iostream>
 #include <netinet/in.h>
+#include <thread>
 #include "Socket.h"
+
 
 ServerSocket* ServerSocket::serverSocketInstancePTR = nullptr;
 
@@ -40,15 +42,69 @@ ServerSocket::ServerSocket() {
 
 
 
+
 //Acepta el cliente,
     listen(serverSocket,5);
     this->clientLenght = sizeof(this->clientAdress);
     this->client = accept(this->serverSocket,(struct sockaddr*)&clientAdress,&clientLenght);
     std::cout<< this->clientAdress.sin_port<< std::endl;
+    listenClient();
 //Recibe un mensaje del cliente
-    read(this->client,buffer, sizeof(buffer));
+    /*read(this->client,buffer, sizeof(buffer));
     printf("%s\n",buffer);
+
+    std::string bufferString(buffer);
+    std::cout<< bufferString << std::endl;*/
+    //std::thread listeningClients(&ServerSocket::listenClient);
+    //listeningClients.join();
 
 
 
 }
+
+
+std::string ServerSocket::readClient() {
+
+    bzero(buffer, sizeof(buffer));
+    read(this->client,buffer, sizeof(buffer));
+
+
+    std::string bufferToString(buffer);
+    return bufferToString;
+
+
+
+}
+
+void ServerSocket::listenClient() {
+    std::string clientRequest = readClient();
+    auto jsonClient = json::parse(clientRequest);
+
+    //
+    if (jsonClient["opcode"] == 0){
+        requestMemory(jsonClient["size"]);
+
+
+    }else if (jsonClient["opcode"] == 1){
+
+
+    }
+
+
+
+
+
+    return;
+
+
+
+
+}
+
+void ServerSocket::requestMemory(ssize_t size) {
+    this->memoryBlock = malloc(size);
+    std::cout << size << std:: endl;
+
+
+}
+

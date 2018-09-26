@@ -83,19 +83,64 @@ CMakeFiles/MPointers.dir/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointers.dir/Socket.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jglez2330/Documents/C++/MPointers/Socket.cpp -o CMakeFiles/MPointers.dir/Socket.cpp.s
 
+CMakeFiles/MPointers.dir/HashTable.cpp.o: CMakeFiles/MPointers.dir/flags.make
+CMakeFiles/MPointers.dir/HashTable.cpp.o: ../HashTable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MPointers.dir/HashTable.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointers.dir/HashTable.cpp.o -c /Users/jglez2330/Documents/C++/MPointers/HashTable.cpp
+
+CMakeFiles/MPointers.dir/HashTable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointers.dir/HashTable.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jglez2330/Documents/C++/MPointers/HashTable.cpp > CMakeFiles/MPointers.dir/HashTable.cpp.i
+
+CMakeFiles/MPointers.dir/HashTable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointers.dir/HashTable.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jglez2330/Documents/C++/MPointers/HashTable.cpp -o CMakeFiles/MPointers.dir/HashTable.cpp.s
+
+CMakeFiles/MPointers.dir/HashEntry.cpp.o: CMakeFiles/MPointers.dir/flags.make
+CMakeFiles/MPointers.dir/HashEntry.cpp.o: ../HashEntry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MPointers.dir/HashEntry.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointers.dir/HashEntry.cpp.o -c /Users/jglez2330/Documents/C++/MPointers/HashEntry.cpp
+
+CMakeFiles/MPointers.dir/HashEntry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointers.dir/HashEntry.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jglez2330/Documents/C++/MPointers/HashEntry.cpp > CMakeFiles/MPointers.dir/HashEntry.cpp.i
+
+CMakeFiles/MPointers.dir/HashEntry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointers.dir/HashEntry.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jglez2330/Documents/C++/MPointers/HashEntry.cpp -o CMakeFiles/MPointers.dir/HashEntry.cpp.s
+
+CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.o: CMakeFiles/MPointers.dir/flags.make
+CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.o: ../ServerMemoryManagement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.o -c /Users/jglez2330/Documents/C++/MPointers/ServerMemoryManagement.cpp
+
+CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jglez2330/Documents/C++/MPointers/ServerMemoryManagement.cpp > CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.i
+
+CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jglez2330/Documents/C++/MPointers/ServerMemoryManagement.cpp -o CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.s
+
 # Object files for target MPointers
 MPointers_OBJECTS = \
 "CMakeFiles/MPointers.dir/main.cpp.o" \
-"CMakeFiles/MPointers.dir/Socket.cpp.o"
+"CMakeFiles/MPointers.dir/Socket.cpp.o" \
+"CMakeFiles/MPointers.dir/HashTable.cpp.o" \
+"CMakeFiles/MPointers.dir/HashEntry.cpp.o" \
+"CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.o"
 
 # External object files for target MPointers
 MPointers_EXTERNAL_OBJECTS =
 
 MPointers: CMakeFiles/MPointers.dir/main.cpp.o
 MPointers: CMakeFiles/MPointers.dir/Socket.cpp.o
+MPointers: CMakeFiles/MPointers.dir/HashTable.cpp.o
+MPointers: CMakeFiles/MPointers.dir/HashEntry.cpp.o
+MPointers: CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.o
 MPointers: CMakeFiles/MPointers.dir/build.make
 MPointers: CMakeFiles/MPointers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MPointers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable MPointers"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MPointers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

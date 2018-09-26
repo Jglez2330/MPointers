@@ -123,6 +123,87 @@ MPointers/fast:
 	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/build
 .PHONY : MPointers/fast
 
+HashEntry.o: HashEntry.cpp.o
+
+.PHONY : HashEntry.o
+
+# target to build an object file
+HashEntry.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/HashEntry.cpp.o
+.PHONY : HashEntry.cpp.o
+
+HashEntry.i: HashEntry.cpp.i
+
+.PHONY : HashEntry.i
+
+# target to preprocess a source file
+HashEntry.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/HashEntry.cpp.i
+.PHONY : HashEntry.cpp.i
+
+HashEntry.s: HashEntry.cpp.s
+
+.PHONY : HashEntry.s
+
+# target to generate assembly for a file
+HashEntry.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/HashEntry.cpp.s
+.PHONY : HashEntry.cpp.s
+
+HashTable.o: HashTable.cpp.o
+
+.PHONY : HashTable.o
+
+# target to build an object file
+HashTable.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/HashTable.cpp.o
+.PHONY : HashTable.cpp.o
+
+HashTable.i: HashTable.cpp.i
+
+.PHONY : HashTable.i
+
+# target to preprocess a source file
+HashTable.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/HashTable.cpp.i
+.PHONY : HashTable.cpp.i
+
+HashTable.s: HashTable.cpp.s
+
+.PHONY : HashTable.s
+
+# target to generate assembly for a file
+HashTable.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/HashTable.cpp.s
+.PHONY : HashTable.cpp.s
+
+ServerMemoryManagement.o: ServerMemoryManagement.cpp.o
+
+.PHONY : ServerMemoryManagement.o
+
+# target to build an object file
+ServerMemoryManagement.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.o
+.PHONY : ServerMemoryManagement.cpp.o
+
+ServerMemoryManagement.i: ServerMemoryManagement.cpp.i
+
+.PHONY : ServerMemoryManagement.i
+
+# target to preprocess a source file
+ServerMemoryManagement.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.i
+.PHONY : ServerMemoryManagement.cpp.i
+
+ServerMemoryManagement.s: ServerMemoryManagement.cpp.s
+
+.PHONY : ServerMemoryManagement.s
+
+# target to generate assembly for a file
+ServerMemoryManagement.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.s
+.PHONY : ServerMemoryManagement.cpp.s
+
 Socket.o: Socket.cpp.o
 
 .PHONY : Socket.o
@@ -186,6 +267,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... MPointers"
+	@echo "... HashEntry.o"
+	@echo "... HashEntry.i"
+	@echo "... HashEntry.s"
+	@echo "... HashTable.o"
+	@echo "... HashTable.i"
+	@echo "... HashTable.s"
+	@echo "... ServerMemoryManagement.o"
+	@echo "... ServerMemoryManagement.i"
+	@echo "... ServerMemoryManagement.s"
 	@echo "... Socket.o"
 	@echo "... Socket.i"
 	@echo "... Socket.s"

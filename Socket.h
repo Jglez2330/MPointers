@@ -4,7 +4,9 @@
 #include <stdio.h>
 #include <sys/socket.h>
 #include <unistd.h>
+#include <nlohmann/json.hpp>
 
+using json = nlohmann::json;
 
 #ifndef MPOINTERS_SOCKET_H
 #define MPOINTERS_SOCKET_H
@@ -13,40 +15,14 @@
 
 class Socket {
 protected:
-    /*struct HostInfo{
-        char *hostName;
-        char **hosrAliases;
-        int hostAddressType;
-        int hostLength;
-        char **hostAddressList;
-        #define hostAddress hostAddressList[0];
-    };
-    //
-    struct SocketAddress{
-        unsigned short socketAddressProtocol;
-        char socketAddressData[14];
+    unsigned char socketInZero[8];
 
-    };
-    //
-    struct InAddress{
-        unsigned long socketAddress;
-    };
-
-    //
-    struct SocketAddressIn{
-        short int socketInProtocol;
-        unsigned short int socketInPort;
-        struct InAddress socketInAddress;
-        unsigned char socketInZero[8];
-    };*/
     sockaddr_in serverAdress;
     sockaddr_in clientAdress;
     socklen_t clientLenght;
     char buffer[256];
-
-
-    //Constrcuctor privado, para que no se instancie
-Socket(){};
+    //Construcctor privado, para que no se instancie
+    Socket(){};
 
 
 
@@ -54,15 +30,18 @@ Socket(){};
 };
 
 //class SocketClient:Socket;
-typedef class T;
+
 class ServerSocket : Socket{
 public:
-    //int bind(int socket, struct SocketAddressIn* local_Address,socklen_t addr_length);
     //void listen();
     //void accept();
     //void send(T data);
     void error(char *error);
     static ServerSocket* getInstance();
+    std::string readClient();
+    void listenClient();
+    void requestMemory(ssize_t size);
+
 
 
 private:
@@ -72,13 +51,16 @@ private:
     int client;
     static ServerSocket* serverSocketInstancePTR;
     ServerSocket(ServerSocket const&){};
-    ServerSocket&operator = (ServerSocket const&){};
+    //ServerSocket&operator = (ServerSocket const&){};
+    void *memoryBlock;
 
 
 
   ServerSocket();
 
 
+
+    char *split(char *ToSplit, char Delimeter);
 };
 
 
