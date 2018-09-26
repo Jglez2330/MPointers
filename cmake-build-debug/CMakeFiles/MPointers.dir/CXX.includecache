@@ -13,6 +13,8 @@ iostream
 -
 netinet/in.h
 -
+thread
+-
 Socket.h
 /Users/jglez2330/Documents/C++/MPointers/Socket.h
 
@@ -22,5 +24,7 @@ stdio.h
 sys/socket.h
 -
 unistd.h
+-
+nlohmann/json.hpp
 -
 

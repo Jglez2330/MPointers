@@ -3,4 +3,4 @@ project(MPointers)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(MPointers main.cpp Socket.cpp Socket.h)
+add_executable(MPointers main.cpp Socket.cpp Socket.h HashTable.cpp HashTable.h HashEntry.cpp HashEntry.h ServerMemoryManagement.cpp ServerMemoryManagement.h)

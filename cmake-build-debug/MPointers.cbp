@@ -82,6 +82,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/HashEntry.cpp">
+			<Option target="MPointers"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/HashEntry.h">
+			<Option target="MPointers"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/HashTable.cpp">
+			<Option target="MPointers"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/HashTable.h">
+			<Option target="MPointers"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/ServerMemoryManagement.cpp">
+			<Option target="MPointers"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/ServerMemoryManagement.h">
+			<Option target="MPointers"/>
+		</Unit>
 		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/Socket.cpp">
 			<Option target="MPointers"/>
 		</Unit>
