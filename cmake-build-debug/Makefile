@@ -123,59 +123,59 @@ MPointers/fast:
 	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/build
 .PHONY : MPointers/fast
 
-HashEntry.o: HashEntry.cpp.o
+LinkedList.o: LinkedList.cpp.o
 
-.PHONY : HashEntry.o
-
-# target to build an object file
-HashEntry.cpp.o:
-	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/HashEntry.cpp.o
-.PHONY : HashEntry.cpp.o
-
-HashEntry.i: HashEntry.cpp.i
-
-.PHONY : HashEntry.i
-
-# target to preprocess a source file
-HashEntry.cpp.i:
-	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/HashEntry.cpp.i
-.PHONY : HashEntry.cpp.i
-
-HashEntry.s: HashEntry.cpp.s
-
-.PHONY : HashEntry.s
-
-# target to generate assembly for a file
-HashEntry.cpp.s:
-	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/HashEntry.cpp.s
-.PHONY : HashEntry.cpp.s
-
-HashTable.o: HashTable.cpp.o
-
-.PHONY : HashTable.o
+.PHONY : LinkedList.o
 
 # target to build an object file
-HashTable.cpp.o:
-	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/HashTable.cpp.o
-.PHONY : HashTable.cpp.o
+LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/LinkedList.cpp.o
+.PHONY : LinkedList.cpp.o
 
-HashTable.i: HashTable.cpp.i
+LinkedList.i: LinkedList.cpp.i
 
-.PHONY : HashTable.i
+.PHONY : LinkedList.i
 
 # target to preprocess a source file
-HashTable.cpp.i:
-	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/HashTable.cpp.i
-.PHONY : HashTable.cpp.i
+LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/LinkedList.cpp.i
+.PHONY : LinkedList.cpp.i
 
-HashTable.s: HashTable.cpp.s
+LinkedList.s: LinkedList.cpp.s
 
-.PHONY : HashTable.s
+.PHONY : LinkedList.s
 
 # target to generate assembly for a file
-HashTable.cpp.s:
-	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/HashTable.cpp.s
-.PHONY : HashTable.cpp.s
+LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/LinkedList.cpp.s
+.PHONY : LinkedList.cpp.s
+
+Node.o: Node.cpp.o
+
+.PHONY : Node.o
+
+# target to build an object file
+Node.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/Node.cpp.o
+.PHONY : Node.cpp.o
+
+Node.i: Node.cpp.i
+
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/Node.cpp.s
+.PHONY : Node.cpp.s
 
 ServerMemoryManagement.o: ServerMemoryManagement.cpp.o
 
@@ -267,12 +267,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... MPointers"
-	@echo "... HashEntry.o"
-	@echo "... HashEntry.i"
-	@echo "... HashEntry.s"
-	@echo "... HashTable.o"
-	@echo "... HashTable.i"
-	@echo "... HashTable.s"
+	@echo "... LinkedList.o"
+	@echo "... LinkedList.i"
+	@echo "... LinkedList.s"
+	@echo "... Node.o"
+	@echo "... Node.i"
+	@echo "... Node.s"
 	@echo "... ServerMemoryManagement.o"
 	@echo "... ServerMemoryManagement.i"
 	@echo "... ServerMemoryManagement.s"
