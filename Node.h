@@ -8,23 +8,23 @@
 template <typename T>
 class Node {
 public:
-    Node(T data);
+    Node(T* data);
 
     Node<T> *getNext() const;
 
-    T getData() const;
+    T* getData() const;
 
     int getId() const;
 
     void setNext(Node<T> *next);
 
-    void setData(T data);
+    void setData(T* data);
 
     virtual ~Node();
 
 private:
     Node<T> * next;
-    T data;
+    T* data;
     int id;
     int offset;
     int lenght;

@@ -6,12 +6,20 @@ CMakeFiles/MPointers.dir/LinkedList.cpp.o
  /Users/jglez2330/Documents/C++/MPointers/LinkedList.h
  /Users/jglez2330/Documents/C++/MPointers/Node.cpp
  /Users/jglez2330/Documents/C++/MPointers/Node.h
+CMakeFiles/MPointers.dir/MPointer.cpp.o
+ /Users/jglez2330/Documents/C++/MPointers/MPointer.cpp
+ /Users/jglez2330/Documents/C++/MPointers/MPointer.h
 CMakeFiles/MPointers.dir/Node.cpp.o
  /Users/jglez2330/Documents/C++/MPointers/Node.cpp
  /Users/jglez2330/Documents/C++/MPointers/Node.h
 CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.o
+ /Users/jglez2330/Documents/C++/MPointers/LinkedList.cpp
+ /Users/jglez2330/Documents/C++/MPointers/LinkedList.h
+ /Users/jglez2330/Documents/C++/MPointers/Node.cpp
+ /Users/jglez2330/Documents/C++/MPointers/Node.h
  /Users/jglez2330/Documents/C++/MPointers/ServerMemoryManagement.cpp
  /Users/jglez2330/Documents/C++/MPointers/ServerMemoryManagement.h
+ /Users/jglez2330/Documents/C++/MPointers/json.hpp
 CMakeFiles/MPointers.dir/Socket.cpp.o
  /Users/jglez2330/Documents/C++/MPointers/Socket.cpp
  /Users/jglez2330/Documents/C++/MPointers/Socket.h
@@ -21,6 +29,7 @@ CMakeFiles/MPointers.dir/main.cpp.o
  /Users/jglez2330/Documents/C++/MPointers/LinkedList.h
  /Users/jglez2330/Documents/C++/MPointers/Node.cpp
  /Users/jglez2330/Documents/C++/MPointers/Node.h
+ /Users/jglez2330/Documents/C++/MPointers/ServerMemoryManagement.h
  /Users/jglez2330/Documents/C++/MPointers/Socket.h
  /Users/jglez2330/Documents/C++/MPointers/json.hpp
  /Users/jglez2330/Documents/C++/MPointers/main.cpp

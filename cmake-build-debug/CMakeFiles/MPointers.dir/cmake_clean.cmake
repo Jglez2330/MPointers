@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/MPointers.dir/ServerMemoryManagement.cpp.o"
   "CMakeFiles/MPointers.dir/LinkedList.cpp.o"
   "CMakeFiles/MPointers.dir/Node.cpp.o"
+  "CMakeFiles/MPointers.dir/MPointer.cpp.o"
   "MPointers.pdb"
   "MPointers"
 )

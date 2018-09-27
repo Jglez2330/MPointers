@@ -24,15 +24,19 @@ Node.h
 
 /Users/jglez2330/Documents/C++/MPointers/Node.h
 
-/Users/jglez2330/Documents/C++/MPointers/Socket.h
-stdio.h
--
-sys/socket.h
--
-unistd.h
+/Users/jglez2330/Documents/C++/MPointers/ServerMemoryManagement.cpp
+ServerMemoryManagement.h
+/Users/jglez2330/Documents/C++/MPointers/ServerMemoryManagement.h
+
+/Users/jglez2330/Documents/C++/MPointers/ServerMemoryManagement.h
+cstddef
 -
 json.hpp
 /Users/jglez2330/Documents/C++/MPointers/json.hpp
+LinkedList.h
+/Users/jglez2330/Documents/C++/MPointers/LinkedList.h
+LinkedList.cpp
+/Users/jglez2330/Documents/C++/MPointers/LinkedList.cpp
 
 /Users/jglez2330/Documents/C++/MPointers/json.hpp
 algorithm
@@ -311,30 +315,4 @@ vector
 -
 utility
 -
-
-/Users/jglez2330/Documents/C++/MPointers/main.cpp
-iostream
--
-stdio.h
--
-stdlib.h
--
-string.h
--
-unistd.h
--
-sys/types.h
--
-sys/socket.h
--
-netinet/in.h
--
-arpa/inet.h
--
-Socket.h
-/Users/jglez2330/Documents/C++/MPointers/Socket.h
-LinkedList.h
-/Users/jglez2330/Documents/C++/MPointers/LinkedList.h
-LinkedList.cpp
-/Users/jglez2330/Documents/C++/MPointers/LinkedList.cpp
 

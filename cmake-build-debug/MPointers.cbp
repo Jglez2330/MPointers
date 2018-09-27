@@ -88,6 +88,12 @@
 		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/LinkedList.h">
 			<Option target="MPointers"/>
 		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/MPointer.cpp">
+			<Option target="MPointers"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/MPointer.h">
+			<Option target="MPointers"/>
+		</Unit>
 		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/Node.cpp">
 			<Option target="MPointers"/>
 		</Unit>

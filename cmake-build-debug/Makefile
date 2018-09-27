@@ -150,6 +150,33 @@ LinkedList.cpp.s:
 	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/LinkedList.cpp.s
 .PHONY : LinkedList.cpp.s
 
+MPointer.o: MPointer.cpp.o
+
+.PHONY : MPointer.o
+
+# target to build an object file
+MPointer.cpp.o:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/MPointer.cpp.o
+.PHONY : MPointer.cpp.o
+
+MPointer.i: MPointer.cpp.i
+
+.PHONY : MPointer.i
+
+# target to preprocess a source file
+MPointer.cpp.i:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/MPointer.cpp.i
+.PHONY : MPointer.cpp.i
+
+MPointer.s: MPointer.cpp.s
+
+.PHONY : MPointer.s
+
+# target to generate assembly for a file
+MPointer.cpp.s:
+	$(MAKE) -f CMakeFiles/MPointers.dir/build.make CMakeFiles/MPointers.dir/MPointer.cpp.s
+.PHONY : MPointer.cpp.s
+
 Node.o: Node.cpp.o
 
 .PHONY : Node.o
@@ -270,6 +297,9 @@ help:
 	@echo "... LinkedList.o"
 	@echo "... LinkedList.i"
 	@echo "... LinkedList.s"
+	@echo "... MPointer.o"
+	@echo "... MPointer.i"
+	@echo "... MPointer.s"
 	@echo "... Node.o"
 	@echo "... Node.i"
 	@echo "... Node.s"
