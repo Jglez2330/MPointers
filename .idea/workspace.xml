@@ -33,6 +33,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="d5502c84-0cf3-4d41-884c-d9576f76a393" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/HashEntry.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/HashEntry.h" afterDir="false" />
@@ -58,6 +59,9 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
+=======
+    <list default="true" id="d5502c84-0cf3-4d41-884c-d9576f76a393" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,19 +74,27 @@
     <session id="-1747404112">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< Updated upstream
           <entry key="project.closed" value="35" />
           <entry key="project.open.time.1" value="2" />
+=======
+          <entry key="project.closed" value="15" />
+>>>>>>> Stashed changes
           <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.110" value="1" />
           <entry key="project.open.time.123" value="1" />
           <entry key="project.open.time.17" value="1" />
+<<<<<<< Updated upstream
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="2" />
+=======
+          <entry key="project.open.time.3" value="1" />
+>>>>>>> Stashed changes
           <entry key="project.open.time.338" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="2" />
@@ -100,7 +112,11 @@
           <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.89" value="1" />
           <entry key="project.open.time.9" value="1" />
+<<<<<<< Updated upstream
           <entry key="project.opened" value="35" />
+=======
+          <entry key="project.opened" value="15" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -149,17 +165,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ServerMemoryManagement.cpp">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="270">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
+=======
+            <state relative-caret-position="1020">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="e#61#79#0" expanded="true" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/ServerMemoryManagement.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+=======
+        <entry file="file://$PROJECT_DIR$/Socket.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#150#168#0" expanded="true" />
               </folding>
@@ -167,6 +198,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HashTable.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -181,6 +213,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#112#140#0" expanded="true" />
                 <element signature="e#173#185#0" expanded="true" />
@@ -263,20 +302,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MPointers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MPointers" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jglez2330/Documents/C++/MPointers/CMakeLists.txt" />
@@ -342,6 +368,7 @@
       <workItem from="1536205118639" duration="4160000" />
       <workItem from="1536215832012" duration="86000" />
       <workItem from="1536247082995" duration="631000" />
+<<<<<<< Updated upstream
       <workItem from="1536249790690" duration="647000" />
       <workItem from="1536259350894" duration="650000" />
       <workItem from="1536363595113" duration="208000" />
@@ -363,15 +390,21 @@
       <workItem from="1537810617461" duration="1476000" />
       <workItem from="1537831389203" duration="2255000" />
       <workItem from="1537979987553" duration="3207000" />
+=======
+      <workItem from="1537991850038" duration="131000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="50800000" />
+=======
+    <option name="totallyTimeSpent" value="19807000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -409,8 +442,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Socket.cpp</url>
+<<<<<<< Updated upstream
           <line>79</line>
           <option name="timeStamp" value="2" />
+=======
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+>>>>>>> Stashed changes
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -419,6 +457,7 @@
     <entry file="file://$PROJECT_DIR$/SocketServer.c" />
     <entry file="file://$PROJECT_DIR$/SocketServer.h" />
     <entry file="file:///usr/include/unistd.h">
+<<<<<<< Updated upstream
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
           <caret line="470" column="9" selection-start-line="470" selection-start-column="9" selection-end-line="470" selection-end-column="9" />
@@ -454,19 +493,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+=======
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="210">
           <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding>
             <element signature="e#42#60#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -479,8 +525,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ServerMemoryManagement.h">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="315">
           <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+=======
+        <state relative-caret-position="1020">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#150#168#0" expanded="true" />
           </folding>
@@ -488,6 +539,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HashTable.cpp">
+<<<<<<< Updated upstream
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2" selection-start-column="2" selection-end-column="2" />
@@ -498,6 +550,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+=======
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#112#140#0" expanded="true" />
             <element signature="e#173#185#0" expanded="true" />
@@ -505,6 +565,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/HashEntry.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -516,6 +577,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2" selection-start-column="2" selection-end-column="2" />
+=======
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#42#60#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
