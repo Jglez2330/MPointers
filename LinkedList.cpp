@@ -7,7 +7,7 @@
 
 
 template<typename T>
-void LinkedList<T>::add(T data) {
+void LinkedList<T>::add(T* data) {
     Node<T> *node = this->head;
     if (node == nullptr){
         this->head = new Node<T>(data);
@@ -28,7 +28,7 @@ void LinkedList<T>::add(T data) {
 }
 
 template<typename T>
-T LinkedList<T>::get(int index) {
+T* LinkedList<T>::get(int index) {
     Node<T> * node = this->head;
 
     if (length <= index || index < 0){
@@ -85,7 +85,7 @@ void LinkedList<T>::remove(int index) {
 }
 
 template<typename T>
-T LinkedList<T>::operator[](int index) {
+T* LinkedList<T>::operator[](int index) {
 
     Node<T> * node = this->head;
 
@@ -110,4 +110,9 @@ template<typename T>
 LinkedList<T>::LinkedList():head(nullptr), length(0){
     this->head = nullptr;
     this->length = 0;
+}
+
+template<typename T>
+Node<T> *LinkedList<T>::getHead() const {
+    return head;
 }

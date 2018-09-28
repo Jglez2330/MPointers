@@ -10,7 +10,7 @@ Node<T> *Node<T>::getNext() const {
 }
 
 template<typename T>
-T Node<T>::getData() const {
+T* Node<T>::getData() const {
     return data;
 }
 
@@ -25,12 +25,12 @@ void Node<T>::setNext(Node<T> *next) {
 }
 
 template<typename T>
-void Node<T>::setData(T data) {
+void Node<T>::setData(T* data) {
     Node::data = data;
 }
 
 template<typename T>
-Node<T>::Node(T data):data(data) {
+Node<T>::Node(T* data):data(data) {
     this->setNext(nullptr);
     this->data = data;
 }

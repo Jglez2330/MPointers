@@ -7,11 +7,15 @@
 
 
 #include <cstddef>
-#include "nlohmann/json.hpp"
+#include "json.hpp"
+
+#include "LinkedList.h"
+#include "LinkedList.cpp"
 using json = nlohmann::json;
 class ServerMemoryManagement {
 public:
-    int requestMemory(size_t size);
+    int requestMemory(int size);
+
     void getValue(int ID);
     void saveValue(json Value);
     
@@ -19,7 +23,9 @@ public:
 
 
 private:
-    void* memeryBlock;
+    int* memeryBlock;
+    int size;
+    LinkedList<int> *lista;
 
 };
 
