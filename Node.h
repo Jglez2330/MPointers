@@ -22,6 +22,12 @@ public:
 
     virtual ~Node();
 
+    void setId(int id);
+
+    void setOffset(int offset);
+
+    void setLenght(int lenght);
+
 private:
     Node<T> * next;
     T* data;

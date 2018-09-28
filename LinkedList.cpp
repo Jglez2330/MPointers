@@ -48,6 +48,28 @@ T* LinkedList<T>::get(int index) {
     return node->getData();
 
 }
+template<typename T>
+ Node<T>* LinkedList<T>::getNode(int index) {
+    Node<T> * node = this->head;
+
+    if (length <= index || index < 0){
+        throw std::runtime_error("Index out of Boundary");
+
+    }else{
+        int internalIndex = 0;
+        while (node != nullptr){
+            if (internalIndex == index){
+                break;
+            }
+            node = node->getNext();
+            internalIndex++;
+        }
+    }
+
+    return node;
+
+}
+
 
 template<typename T>
 void LinkedList<T>::remove(int index) {
@@ -116,3 +138,9 @@ template<typename T>
 Node<T> *LinkedList<T>::getHead() const {
     return head;
 }
+
+template<typename T>
+int LinkedList<T>::getLength() const {
+    return length;
+}
+

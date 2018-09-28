@@ -33,6 +33,9 @@ template<typename T>
 Node<T>::Node(T* data):data(data) {
     this->setNext(nullptr);
     this->data = data;
+    this->setLenght(sizeof(int));
+    this->setOffset(sizeof(int));
+
 }
 
 template<typename T>
@@ -40,4 +43,20 @@ Node<T>::~Node() {
     free(next);
 
 
+
+}
+
+template<typename T>
+void Node<T>::setId(int id) {
+    Node::id = id;
+}
+
+template<typename T>
+void Node<T>::setOffset(int offset) {
+    Node::offset = offset;
+}
+
+template<typename T>
+void Node<T>::setLenght(int lenght) {
+    Node::lenght = lenght;
 }

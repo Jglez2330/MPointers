@@ -16,8 +16,10 @@ class ServerMemoryManagement {
 public:
     int requestMemory(int size);
 
-    void getValue(int ID);
-    void saveValue(json Value);
+    nlohmann::json getValue(int ID);
+    void remove(int ID);
+    void changeValue(int ID, json Value);
+    nlohmann::json saveValue(json Value);
     
 
 
@@ -27,6 +29,9 @@ private:
     int size;
     LinkedList<int> *lista;
 
+    bool isFull();
+
+    bool hasID(int id);
 };
 
 
