@@ -1,3 +1,7 @@
+//
+// Created by ferathor on 27/09/18.
+//
+
 #include <iostream>
 //#include "Socket.h"
 #include <stdio.h>
@@ -14,8 +18,6 @@
 #include "ServerMemoryManagement.h"
 
 int main() {
-    /*
-    std::cout << "Hello, World!" << std::endl;
 
     ServerSocket* socket = ServerSocket::getInstance();
     ServerSocket* socket2 = ServerSocket::getInstance();

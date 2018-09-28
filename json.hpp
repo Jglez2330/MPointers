@@ -7236,7 +7236,7 @@ class binary_reader
     {
         if (get_char)
         {
-            get();  // TODO: may we ignore N here?
+            get();
         }
 
         if (JSON_UNLIKELY(not unexpect_eof()))
