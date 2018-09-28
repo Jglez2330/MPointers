@@ -8,108 +8,110 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug"/>
+				<Option working_dir="/home/ferathor/Desktop/MPointers/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug"/>
+				<Option working_dir="/home/ferathor/Desktop/MPointers/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ferathor/Desktop/MPointers/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MPointers">
-				<Option output="/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/MPointers" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug"/>
+				<Option output="/home/ferathor/Desktop/MPointers/cmake-build-debug/MPointers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ferathor/Desktop/MPointers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointers"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointers"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MPointers/fast">
-				<Option output="/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/MPointers" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug"/>
+				<Option output="/home/ferathor/Desktop/MPointers/cmake-build-debug/MPointers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ferathor/Desktop/MPointers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointers/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPointers/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ferathor/Desktop/MPointers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/LinkedList.cpp">
+		<Unit filename="/home/ferathor/Desktop/MPointers/LinkedList.cpp">
 			<Option target="MPointers"/>
 		</Unit>
-		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/LinkedList.h">
+		<Unit filename="/home/ferathor/Desktop/MPointers/LinkedList.h">
 			<Option target="MPointers"/>
 		</Unit>
-		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/Node.cpp">
+		<Unit filename="/home/ferathor/Desktop/MPointers/Node.cpp">
 			<Option target="MPointers"/>
 		</Unit>
-		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/Node.h">
+		<Unit filename="/home/ferathor/Desktop/MPointers/Node.h">
 			<Option target="MPointers"/>
 		</Unit>
-		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/ServerMemoryManagement.cpp">
+		<Unit filename="/home/ferathor/Desktop/MPointers/ServerMemoryManagement.cpp">
 			<Option target="MPointers"/>
 		</Unit>
-		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/ServerMemoryManagement.h">
+		<Unit filename="/home/ferathor/Desktop/MPointers/ServerMemoryManagement.h">
 			<Option target="MPointers"/>
 		</Unit>
-		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/Socket.cpp">
+		<Unit filename="/home/ferathor/Desktop/MPointers/Socket.cpp">
 			<Option target="MPointers"/>
 		</Unit>
-		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/Socket.h">
+		<Unit filename="/home/ferathor/Desktop/MPointers/Socket.h">
 			<Option target="MPointers"/>
 		</Unit>
-		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/main.cpp">
+		<Unit filename="/home/ferathor/Desktop/MPointers/main.cpp">
 			<Option target="MPointers"/>
 		</Unit>
-		<Unit filename="/Users/jglez2330/Documents/C++/MPointers/CMakeLists.txt">
+		<Unit filename="/home/ferathor/Desktop/MPointers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

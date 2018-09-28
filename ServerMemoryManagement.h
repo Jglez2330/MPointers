@@ -7,7 +7,8 @@
 
 
 #include <cstddef>
-#include "nlohmann/json.hpp"
+#include "json.hpp"
+
 using json = nlohmann::json;
 class ServerMemoryManagement {
 public:

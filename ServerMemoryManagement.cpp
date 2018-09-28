@@ -2,6 +2,7 @@
 // Created by Joseph Luis González Pastora on 24/9/18.
 //
 
+#include <cstdlib>
 #include "ServerMemoryManagement.h"
 
 int ServerMemoryManagement::requestMemory(size_t size) {
