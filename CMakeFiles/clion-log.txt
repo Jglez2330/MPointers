@@ -1,4 +1,0 @@
-Cannot generate into /home/ferathor/Desktop/MPointers
-It is already used for project /home/josu/CLionProjects/untitled2
-
-Please either delete it manually or select another generation directory

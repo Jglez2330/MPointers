@@ -20,10 +20,13 @@ public:
 
     void add(T* data);
     T* get(int index);
+    Node<T>* getNode(int index);
     void remove(int index);
     T* operator[](int index);
 
     Node<T> *getHead() const;
+
+    int getLength() const;
 
 
 };
