@@ -5,6 +5,7 @@
 #include <sys/socket.h>
 #include <unistd.h>
 #include "json.hpp"
+#include "ServerMemoryManagement.h"
 
 using json = nlohmann::json;
 
@@ -40,7 +41,6 @@ public:
     static ServerSocket* getInstance();
     std::string readClient();
     void listenClient();
-    void requestMemory(ssize_t size);
 
 
 
@@ -50,9 +50,9 @@ private:
     int portNumber;
     int client;
     static ServerSocket* serverSocketInstancePTR;
+    ServerMemoryManagement *memoryManager;
     ServerSocket(ServerSocket const&){};
     //ServerSocket&operator = (ServerSocket const&){};
-    void *memoryBlock;
 
 
 

@@ -48,17 +48,17 @@ ServerSocket::ServerSocket() {
     this->clientLenght = sizeof(this->clientAdress);
     this->client = accept(this->serverSocket,(struct sockaddr*)&clientAdress,&clientLenght);
     std::cout<< this->clientAdress.sin_port<< std::endl;
-    listenClient();
+    this->memoryManager = new ServerMemoryManagement();
+    //listenClient();
 //Recibe un mensaje del cliente
     /*read(this->client,buffer, sizeof(buffer));
     printf("%s\n",buffer);
 
     std::string bufferString(buffer);
     std::cout<< bufferString << std::endl;*/
-    //std::thread listeningClients(&ServerSocket::listenClient);
-    //listeningClients.join();
 
-
+    std::thread listeningClients(&ServerSocket::listenClient,this);
+    listeningClients.join();
 
 }
 
@@ -66,27 +66,63 @@ ServerSocket::ServerSocket() {
 std::string ServerSocket::readClient() {
 
     bzero(buffer, sizeof(buffer));
-    read(this->client,buffer, sizeof(buffer));
+//read(this->client,this->buffer,4);
+//std::cout<< (int) buffer[0]<< std::endl;
+  //  int n = 1000*((int) this->buffer[0]) + 100*((int) this->buffer[1]) + 10*((int) this->buffer[2]) +((int) this->buffer[3])  ;
+    //bzero(buffer, sizeof(buffer));
+    int n = read(this->client,this->buffer, 256);
+    std::cout<< n<< std::endl;
 
 
-    std::string bufferToString(buffer);
-    return bufferToString;
+    std::string bufferString(buffer);
+
+    if (n == 0){
+        bufferString ="{\"opcode\":-256}";
+    }
+
+    return bufferString;
+
+
+
 
 
 
 }
 
 void ServerSocket::listenClient() {
-    std::string clientRequest = readClient();
-    auto jsonClient = json::parse(clientRequest);
-
-    //
-    if (jsonClient["opcode"] == 0){
-        requestMemory(jsonClient["size"]);
+    bool isActive = true;
+    json jsonClient;
+    while (isActive) {
+        //try {
 
 
-    }else if (jsonClient["opcode"] == 1){
+            std::string clientRequest = readClient();
 
+        try {
+            jsonClient = json::parse(clientRequest);
+        }catch (...){
+        }
+
+            if ((int )jsonClient["opcode"] == 0) {
+                this->memoryManager->requestMemory(jsonClient["size"]);
+
+
+            } else if ((int) jsonClient["opcode"] == 1) {
+                json id =this->memoryManager->saveValue(jsonClient);
+                write(this->client,id.dump().data(),256);
+
+            }else if (jsonClient["opcode"] == -256){
+                break;
+            } else if (jsonClient["opcode"] == 2){
+                json value = this->memoryManager->getValue(jsonClient["id"]);
+                write(this->client,value.dump().data(),256);
+
+            } else if (jsonClient["opcode"] == 3){
+                this->memoryManager->changeValue(jsonClient["id"],jsonClient);
+            } else if (jsonClient["opcode"] == 4){
+                this->memoryManager->remove(jsonClient["id"]);
+            }
+            jsonClient = {{"opcode", -1}};
 
     }
 
@@ -94,17 +130,9 @@ void ServerSocket::listenClient() {
 
 
 
-    return;
-
-
-
 
 }
 
-void ServerSocket::requestMemory(ssize_t size) {
-    this->memoryBlock = malloc(size);
-    std::cout << size << std:: endl;
 
 
-}
 

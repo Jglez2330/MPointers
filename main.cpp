@@ -12,24 +12,20 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <thread>
 #include "Socket.h"
 //#include "LinkedList.h"
 //#include "LinkedList.cpp"
 #include "ServerMemoryManagement.h"
 
 int main() {
-/*
-    ServerSocket* socket = ServerSocket::getInstance();
-    ServerSocket* socket2 = ServerSocket::getInstance();
 
-    std::cout << &*socket<<std::endl;
-    std::cout << &*socket2<<std::endl;*/
-    /*LinkedList<int> *list = new LinkedList<int>();
-    list->add(101);
-    list->add(102);
-    list->add(103);
-    list->remove(1);
-    std::cout << list->get(2);*/
+
+
+std::thread socketServer(ServerSocket::getInstance);
+
+
+socketServer.join();
     ServerMemoryManagement *management = new ServerMemoryManagement();
     management->requestMemory(5);
     json j = {{"Data", 100}};
