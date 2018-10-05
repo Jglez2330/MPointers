@@ -51,7 +51,6 @@ nlohmann::json ServerMemoryManagement::saveValue(json Value) {
                 lista->add(nullptr);
             }
             memeryBlock[0] = Value["Data"];
-            std::cout << memeryBlock[0]<<std::endl;
 
             lista->getNode(0)->setData(&memeryBlock[0]);
             lista->getNode(0)->setId(0);
@@ -62,15 +61,15 @@ nlohmann::json ServerMemoryManagement::saveValue(json Value) {
             for (int i = 0; i < size; i++) {
                 if (lista->get(i) == nullptr) {
                     memeryBlock[i] = Value["Data"];
-                    std::cout << memeryBlock[i] << std::endl;
                     lista->getNode(i)->setData(&memeryBlock[i]);
                     lista->getNode(i)->setId(i);
-                    ID = {{"ID",lista->getNode(i)->getId()}};
+                    ID = {{"ID", lista->getNode(i)->getId()}};
                     break;
 
 
                 }
             }
+            printMemory();
             return ID;
 
         }
@@ -104,6 +103,8 @@ void ServerMemoryManagement::remove(int ID) {
 
             }
         }
+        printMemory();
+
         return;
 
 
@@ -121,6 +122,7 @@ void ServerMemoryManagement::changeValue(int ID, nlohmann:: json Value) {
 
             }
         }
+        printMemory();
         return;
 
 
@@ -138,4 +140,21 @@ bool ServerMemoryManagement::hasID(int id) {
         }
     }
     return hasId;
+}
+
+void ServerMemoryManagement::printMemory() {
+    printf("%-10s %-10s %-10s %-10s \n \n","i","ID","Value","MemeryDirection");
+
+    for (int i = 0; i < size; ++i) {
+        if (lista->get(i) == nullptr){
+
+            printf("%-10s %-10s %-10s %-10s \n","-","-","-","-");
+
+        } else{
+            printf("%-10i %-10i %-10i %-#10x \n",i,lista->getNode(i)->getId(),memeryBlock[i],lista->get(i));
+        }
+
+    }
+
+
 }
