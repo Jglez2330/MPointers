@@ -20,6 +20,7 @@ public:
     void remove(int ID);
     void changeValue(int ID, json Value);
     nlohmann::json saveValue(json Value);
+    void printMemory();
     
 
 
